@@ -14,15 +14,13 @@ const UserSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
-        min: 6, 
-        max: 50, 
+        min: 6,
+        max: 50,
     },
     isAdmin: {
         type: Boolean,
         default: false,
-
     }
-
 })
 
-module.exports = mongoose.model('User', UserSchema)
+module.exports = mongoose.model("User", UserSchema)

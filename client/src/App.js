@@ -1,34 +1,40 @@
 import './App.css';
-import {Routes, Route} from 'react-router-dom';
-import Navbar from './components/navbar/navbaravbar';
-import Footer from './components/footer/footer';
-import Home from './components/home/home';
-import Login from './components/login/login';
-import Signup from './components/signup/signup';
-import Create from './components/create/create';
-import FoodDetails from './components/foodDetails/foodDetails';
-import FoodCatalog from './components/foodCatalog/foodCatalog';
-import Cart from './components/cart/cart';
-import Checkout from './components/checkout/checkout';
-
-
+import {Routes, Route} from 'react-router-dom'
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+import Home from './components/home/Home';
+import Login from './components/login/Login';
+import Signup from './components/signup/Signup';
+import Create from './components/create/Create';
+import FoodDetails from './components/foodDetails/FoodDetails';
+import FoodCatalog from './components/foodCatalog/FoodCatalog';
+import Cart from './components/cart/Cart';
+import Checkout from './components/checkout/Checkout';
+import {useLocation} from 'react-router-dom'
+import { useEffect } from 'react';
 
 function App() {
-  return (
-    <div >
-  <Navbar/>
-  <Routes> 
-    <Route path='/' element={<Home/>}/>
-    <route path='.login' element={<Login />}/>
-    <route path='/signup' element={<Signup/>}/>
-    <route path='/create' element={<Create/>}/>
-    <route path='/food/:id' element={<FoodDetails/>}/>
-    <route path='/foods/:id' element={<FoodCatalog/>}/>
-    <route path='/cart' element={<Cart/>}/>
-    <route path='/checkout' element={<Checkout/>}/>
-  </Routes>
-  <Footer/>
+ const location = useLocation()
+ 
+ useEffect(() => {
+   window.scrollTo(0, 0)
+ }, [location.pathname])
 
+
+  return (
+    <div>
+       <Navbar />
+       <Routes>
+         <Route path='/' element={<Home />} />
+         <Route path='/login' element={<Login />} />
+         <Route path='/signup' element={<Signup />} />
+         <Route path='/create' element={<Create />} />
+         <Route path='/food/:id' element={<FoodDetails />} />
+         <Route path='/foods/:id' element={<FoodCatalog />} />
+         <Route path='/cart' element={<Cart />} />
+         <Route path='/checkout' element={<Checkout />} />
+       </Routes>
+       <Footer />
     </div>
   );
 }
