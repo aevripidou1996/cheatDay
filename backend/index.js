@@ -7,6 +7,7 @@ const productController = require('./controllers/productController')
 const uploadController = require('./controllers/uploadController')
 const app = express()
 
+
 // connect our db
 mongoose.set('strictQuery', false)
 mongoose.connect(process.env.MONGO_URL, () => console.log('DB is successfully connected'))
