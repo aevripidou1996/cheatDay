@@ -13,6 +13,7 @@ const FoodCatalog = () => {
 
   useEffect(() => {
     const fetchFoodType = async () => {
+      console.log(token)
       const res = await fetch(`http://localhost:5000/product?category=${foodEndpoint}`, {
         headers: {
           "Authorization": `Bearer ${token}`

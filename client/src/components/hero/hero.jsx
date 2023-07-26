@@ -19,8 +19,7 @@ const Hero = () => {
             They are our single most important thing for our business.
           </p>
           <div className={classes.buttons}>
-            <button className={classes.buttonOrder}>Order now!</button>
-            <button className={classes.buttonSee}><a href="#foods">See what's available <AiOutlineArrowDown/> </a></button>
+            <button className={classes.buttonSee}><a href="#foods">Order Now <AiOutlineArrowDown/> </a></button>
           </div>
         </div>
         <div className={classes.right}>
