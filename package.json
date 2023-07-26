@@ -14,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "caniuse-lite": "^1.0.30001517"
+  },
+  "devDependencies": {
+    "node": "^20.5.0"
   }
 }
