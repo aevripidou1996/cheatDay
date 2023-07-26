@@ -3,8 +3,9 @@ const Product = require("../models/Product")
 const {verifyToken, verifyTokenAdmin} = require('../middlewares/verifyToken')
 
 // get all
-productController.get('/', verifyToken, async(req, res) => {
+productController.get('/', async(req, res) => {
     try {
+        console.log('test')
         const products = await Product.find(req.query)
         console.log(req.query, products)
         return res.status(200).json(products)
@@ -14,7 +15,7 @@ productController.get('/', verifyToken, async(req, res) => {
 })
 
 // get one
-productController.get('/find/:id', verifyToken, async(req, res) => {
+productController.get('/find/:id', async(req, res) => {
    try {
     const productId = req.params.id
     const product = await Product.findById(productId)
@@ -28,7 +29,7 @@ productController.get('/find/:id', verifyToken, async(req, res) => {
 })
 
 // create product
-productController.post('/', verifyTokenAdmin, async(req, res) => {
+productController.post('/', async(req, res) => {
     try {
         const newProduct = await Product.create({...req.body})
         return res.status(201).json(newProduct)
