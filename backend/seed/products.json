@@ -1,0 +1,162 @@
+[
+    {
+        "title": "Double Burger",
+        "desc": "Double beef burger",
+        "price": 25,
+        "img": "burger1.jpg",
+        "review": 5,
+        "category": "burger"
+    },
+    {
+        "title": "Single Burger",
+        "desc": "Burger with beef",
+        "price": 20,
+        "img": "burger2.jpg",
+        "review": 5,
+        "category": "burger"
+    },
+    {
+        "title": "Small Burger",
+        "desc": "Small burger with beef",
+        "price": 15,
+        "img": "burger3.jpg",
+        "review": 5,
+        "category": "burger"
+    },
+    {
+        "title": "Burger Slider",
+        "desc": "2 burgers",
+        "price": 25,
+        "img": "burger4.jpg",
+        "review": 5,
+        "category": "burger"
+    },
+    {
+        "title": "Egg Burger",
+        "desc": "Burger with Egg",
+        "price": 20,
+        "img": "burger5.jpg",
+        "review": 5,
+        "category": "burger"
+    },
+    {
+        "title": "Pork Gyros",
+        "desc": "Gyros with pork",
+        "price": 20,
+        "img": "gyros1.jpg",
+        "review": 5,
+        "category": "gyros"
+    },
+    {
+        "title": "Chicken Gyros",
+        "desc": "Gyros with Chicken",
+        "price": 20,
+        "img": "gyros2.jpg",
+        "review": 5,
+        "category": "gyros"
+    },
+    {
+        "title": "Beef Gyros",
+        "desc": "Gyros with Beef",
+        "price": 20,
+        "img": "gyros3.jpg",
+        "review": 5,
+        "category": "gyros"
+    },
+    {
+        "title": "Double Gyros",
+        "desc": "Two",
+        "price": 30,
+        "img": "gyros4.jpg",
+        "review": 5,
+        "category": "gyros"
+    },
+    {
+        "title": "Gyros Sandwich",
+        "desc": "Two",
+        "price": 25,
+        "img": "gyros5.jpg",
+        "review": 5,
+        "category": "gyros"
+    },
+    {
+        "title": "Pasta with Ragu",
+        "desc": "Pasta with Ragu sauce",
+        "price": 20,
+        "img": "pasta1.jpg",
+        "review": 5,
+        "category": "pasta"
+    },
+    {
+        "title": "Pasta with cream",
+        "desc": "Pasta with cream",
+        "price": 20,
+        "img": "pasta2.jpg",
+        "review": 5,
+        "category": "pasta"
+    },
+    {
+        "title": "Pasta with tomato sauce",
+        "desc": "Pasta with tomato sauce",
+        "price": 20,
+        "img": "pasta3.jpg",
+        "review": 5,
+        "category": "pasta"
+    },
+    {
+        "title": "Spaghetti Bolognese",
+        "desc": "Pasta with Bolognese sauce",
+        "price": 20,
+        "img": "pasta4.jpg",
+        "review": 5,
+        "category": "pasta"
+    },
+    {
+        "title": "Seafood Pasta",
+        "desc": "Pasta with seafood",
+        "price": 20,
+        "img": "pasta5.jpg",
+        "review": 5,
+        "category": "pasta"
+    },
+    {
+        "title": "Cheese Pizza",
+        "desc": "Pizza with Cheese",
+        "price": 15,
+        "img": "pizza1.jpg",
+        "review": 5,
+        "category": "pizza"
+    },
+    {
+        "title": "Margherita Pizza",
+        "desc": "Margherita Pizza",
+        "price": 15,
+        "img": "pizza2.jpg",
+        "review": 5,
+        "category": "pizza"
+    },
+    {
+        "title": "Supreme Pizza",
+        "desc": "Pizza with everything",
+        "price": 15,
+        "img": "pizza3.jpg",
+        "review": 5,
+        "category": "pizza"
+    },
+    {
+        "title": "Spinach Pizza",
+        "desc": "Pizza with Spinach",
+        "price": 15,
+        "img": "pizza4.jpg",
+        "review": 5,
+        "category": "pizza"
+    },
+    {
+        "title": "Vegeterian Pizza",
+        "desc": "Vegeterian Pizza",
+        "price": 15,
+        "img": "pizza5.jpg",
+        "review": 5,
+        "category": "pizza"
+    }
+]
