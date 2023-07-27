@@ -3,7 +3,7 @@ import classes from './newsletter.module.css'
 import {AiOutlineSend} from 'react-icons/ai'
 import newsletterIllustration from '../../assets/get-newsletter-updates.svg'
 
-const Newsletter = () => {
+let Newsletter = () => {
   return (
     <section id='contacts' className={classes.container}>
       <div className={classes.wrapper}>

@@ -1,15 +1,15 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
-import Navbar from './components/nav/Navbar';
+import Navbar from './components/nav/navbar';
 import Footer from './components/footer/footer';
-import Home from '../src/components/home/Home';
-import Login from '../src/components/login/Login';
-import Signup from '../src/components/signup/Signup';
-import Create from '../src/components/create/Create';
-import FoodDetails from '../src/components/foodDetails/FoodDetails';
-import FoodCatalog from '../src/components/foodCatalog/FoodCatalog';
-import Cart from '../src/components/cart/Cart';
-import Checkout from '../src/components/checkout/Checkout';
+import Home from './components/home/home';
+import Login from './components/login/login';
+import Signup from './components/signup/signup';
+import Create from './components/create/create';
+import FoodDetails from './components/foodDetails/foodDetails';
+import FoodCatalog from './components/foodCatalog/foodCatalog';
+import Cart from './components/cart/cart';
+import Checkout from './components/checkout/checkout';
 import {useLocation} from 'react-router-dom'
 import { useEffect } from 'react';
 

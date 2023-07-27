@@ -6,7 +6,7 @@ import {Link, useNavigate} from 'react-router-dom'
 import img from '../../assets/womaneating2.jpg'
 import { login } from '../../redux/authSlice'
 
-const Login = () => {
+let Login = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [error, setError] = useState(false)

@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 
 
-const Create = () => {
+let Create = () => {
   const [title, setTitle] = useState("")
   const [desc, setDesc] = useState("")
   const [category, setCategory] = useState("")

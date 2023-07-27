@@ -1,13 +1,13 @@
 import React from 'react'
-import Hero from '../hero/Hero'
+import Hero from '../hero/hero'
 import classes from './home.module.css'
 import illustration1 from '../../assets/male-delivery-guy-riding-scooter.svg'
 import illustration2 from '../../assets/delivery-location.svg'
 import illustration3 from '../../assets/deliveryman-with-pizza.svg'
-import Foods from '../foods/Foods'
-import Newsletter from '../newsletter/Newsletter'
+import Foods from '../foods/foods'
+import Newsletter from '../newsletter/newsletter'
 
-const Home = () => {
+let Home = () => {
   return (
     <div className={classes.container}>
       <div className={classes.wrapper}>

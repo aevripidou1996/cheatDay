@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
 import { addProduct } from '../../redux/cartSlice'
 
-const FoodDetails = () => {
+let FoodDetails = () => {
   const [foodDetails, setFoodsDetails] = useState('')
   const [quantity, setQuantity] = useState(1)
   const dispatch = useDispatch()

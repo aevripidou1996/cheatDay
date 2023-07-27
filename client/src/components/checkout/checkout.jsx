@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import classes from './checkout.module.css'
 
-const Checkout = () => {
+let Checkout = () => {
   const {products} = useSelector((state) => state.cart)
 
   let totalPrice = 0

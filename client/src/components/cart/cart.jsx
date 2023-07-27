@@ -5,7 +5,7 @@ import {AiOutlineClose} from 'react-icons/ai'
 import { removeProduct } from '../../redux/cartSlice'
 import {useNavigate} from 'react-router-dom'
 
-const Cart = () => {
+let Cart = () => {
   const {products} = useSelector((state) => state.cart)
   const dispatch = useDispatch()
   const navigate = useNavigate()
