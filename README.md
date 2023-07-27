@@ -14,7 +14,8 @@ cheatDay is the name of my final project. It is an app for a resteraut and allow
 ## Screenshot
 ![image](https://github.com/aevripidou1996/P2-Book-App/assets/114223852/02a57be2-8c7c-4e2d-914f-e7a4178e926f)
 
-Links
+## Links
+
 In the link's bellow you will find 2 URL links.
 
 The first URL will take you to my Github repository, which contanins the code for this assesment and previous git pusheshes.
