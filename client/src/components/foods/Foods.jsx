@@ -3,7 +3,7 @@ import { foodTypes } from '../../data/data'
 import {Link} from 'react-router-dom'
 import classes from './foods.module.css'
 
-const Foods = () => {
+let Foods = () => {
   return (
     <section id="foods" className={classes.container}>
       <div className={classes.wrapper}>
