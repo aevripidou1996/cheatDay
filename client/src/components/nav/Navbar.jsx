@@ -6,7 +6,7 @@ import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { logout } from '../../redux/authSlice'
 
-const Navbar = () => {
+let Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const {products} = useSelector((state) => state.cart)
   const dispatch = useDispatch()
