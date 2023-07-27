@@ -2,7 +2,7 @@ import React from "react"
 import classes from "./footer.module.css"
 import { AiFillInstagram, AiFillFacebook, AiFillTwitterCircle } from "react-icons/ai"
 
-const Footer = () => {
+let Footer = () => {
   return (
     <section id="faq" className={classes.container}>
       <div className={classes.wrapper}>

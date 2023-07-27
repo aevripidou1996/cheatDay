@@ -1,7 +1,7 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
 import Navbar from './components/nav/Navbar';
-import Footer from '../src/components/footer/Footer';
+import Footer from './components/footer/footer';
 import Home from '../src/components/home/Home';
 import Login from '../src/components/login/Login';
 import Signup from '../src/components/signup/Signup';
@@ -12,6 +12,8 @@ import Cart from '../src/components/cart/Cart';
 import Checkout from '../src/components/checkout/Checkout';
 import {useLocation} from 'react-router-dom'
 import { useEffect } from 'react';
+
+
 
 function App() {
  const location = useLocation()
